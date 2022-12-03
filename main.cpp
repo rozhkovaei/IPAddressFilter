@@ -3,6 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <fstream>
+#include <memory>
 
 constexpr int IPADDRESS_PARTS = 4;
 
