@@ -176,7 +176,7 @@ ostream& operator<<( ostream& os, const vector<shared_ptr<IPAddress>>& pool )
     return os;
 }
 
-int main(int argc, char const *argv[])
+int main([[maybe_unused]] int argc, char const *argv[])
 {
     try
     {
